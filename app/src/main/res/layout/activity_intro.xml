@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="421dp"
+        android:layout_height="741dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="199dp"
+        android:layout_height="66dp"
+        android:capitalize="words"
+        android:text="FOOD DELEVERY"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="118dp"
+        android:layout_height="97dp"
+        android:text="Enjoy\nEating"
+        android:textColor="#FFC107"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#FFC107"
+        android:backgroundTintMode="src_atop"
+        android:fontFamily="sans-serif-light"
+        android:onClick="getstarted"
+        android:text="GET STARTED"
+        android:textAlignment="textStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#E91E63" />
+</androidx.constraintlayout.widget.ConstraintLayout>

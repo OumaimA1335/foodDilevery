@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".UpdateProfile">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Update Profile"
+        android:textColor="#E64A19"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/UpEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/input_text"
+        android:hint="Email"
+        android:layout_margin="20dp"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/OldPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Crruent password"
+        android:layout_margin="20dp"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/UpPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint=" New password"
+        android:layout_margin="20dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="UpdateProfile" />
+
+
+</LinearLayout>

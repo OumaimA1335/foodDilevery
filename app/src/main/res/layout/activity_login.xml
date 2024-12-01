@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="#888585"
+        android:textColorHint="#0A0909"
+        android:textColorLink="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="To FOOD DElIVERY"
+        android:textColor="#E64A19"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input_text"
+        android:hint="Email"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input_text"
+        android:hint="Password"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/ToSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Click here to sign up "
+        android:onClick="ToSignUP"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_login"
+        android:backgroundTint="#FF5722"
+        android:shadowColor="#FF5722"
+        android:text="Login"
+        app:strokeColor="#FF5722" />
+
+
+</LinearLayout>
